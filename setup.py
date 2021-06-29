@@ -54,15 +54,14 @@ setup(
         # http://pypi.python.org/pypi?%3Aaction=list_classifiers
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
-        'Intended Audience :: Science/Research',
         'Natural Language :: English',
         'Operating System :: POSIX',
         'Operating System :: MacOS',
         'Operating System :: Microsoft',
+        'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
-        'Topic :: Scientific/Engineering :: Bio-Informatics',
         ],
     project_urls={
         'webpage': 'https://github.com/joaomcteixeira/libfuncpy',
