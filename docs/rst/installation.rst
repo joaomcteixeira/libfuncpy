@@ -2,14 +2,17 @@
 Installation
 ============
 
-**This is an example page for a real project.** In this page you can
-describe the installation steps required for end-users, use the
-:ref:`Contribution page<Contributing>` to provide the guidelines for
-developers.
+Install ``libfuncpy`` from PyPI with::
 
-Installation Example
---------------------
+    pip install libfuncpy
 
-At the command line::
+Install it from GitHub with::
 
-    pip install lubfuncpy
+    # clone the repository
+    git clone https://github.com/joaomcteixeira/libfuncpy
+
+    # move to the folder
+    cd libfuncpy
+
+    # install in develop mode
+    python setup.py develop

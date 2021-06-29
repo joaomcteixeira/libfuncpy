@@ -1,5 +1,5 @@
-Source documentation
-====================
+libfuncpy API
+=============
 
 .. toctree::
     :glob:
