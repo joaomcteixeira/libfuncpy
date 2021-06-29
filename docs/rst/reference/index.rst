@@ -5,5 +5,5 @@ libfuncpy API
 
     from libfuncpy import *
 
-.. automodule:: libfuncpy
+.. automodule:: libfuncpy.lib
     :members:
