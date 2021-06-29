@@ -96,11 +96,9 @@ def consume(gen):
 
 def flatlist(list_):
     """
-    Flat a sequence recursively.
+    Flat a list recursively.
 
-    This is a generator. Accepts other generators.
-
-    Strings are returned as is.
+    This is a generator.
     """
     # escape strings which would yield infinite recursion
     if isinstance(list_, str):

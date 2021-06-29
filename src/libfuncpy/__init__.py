@@ -1,3 +1,5 @@
-"""Initial documentation of SampleProject."""
+"""Functional Programming tools for Python."""
+from libfuncpy.lib import *
 
-__version__ = '0.8.0'
+__version__ = '0.0.0'
+
