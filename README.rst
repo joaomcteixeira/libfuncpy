@@ -22,16 +22,14 @@ libfuncpy
     :target: https://libfuncpy.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
-Summary
-=======
+.. image:: https://img.shields.io/pypi/pyversions/libfuncpy
+    :alt: PyPI - Python Version
+
+.. image:: https://img.shields.io/pypi/v/libfuncpy
+    :alt: PyPI
 
 Functional Programming tools in Python - extending beyond map, filter,
 reduce, and partial.
-
-Version
-=======
-
-v0.0.0
 
 .. _discussion: https://github.com/joaomcteixeira/libfuncpy/discussions
 .. _documentation: https://libfuncpy.readthedocs.io/
