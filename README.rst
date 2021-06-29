@@ -6,8 +6,8 @@ libfuncpy
     :target: https://github.com/joaomcteixeira/libfuncpy/actions?workflow=tests
     :alt: Test Status
 
-.. image:: https://github.com/joaomcteixeira/libfuncpy/workflows/deploy/badge.svg?branch=main
-    :target: https://github.com/joaomcteixeira/libfuncpy/actions?workflow=deploy
+.. image:: https://github.com/joaomcteixeira/libfuncpy/workflows/build/badge.svg?branch=main
+    :target: https://github.com/joaomcteixeira/libfuncpy/actions?workflow=build
     :alt: Package Build
 
 .. image:: https://codecov.io/gh/joaomcteixeira/libfuncpy/branch/main/graph/badge.svg?token=AOJFM3HPJF
