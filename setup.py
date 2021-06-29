@@ -36,7 +36,7 @@ long_description = '{}\n{}'.format(
 
 setup(
     name='libfuncpy',
-    version='0.0.0',
+    version='0.0.1',
     description='Functional Programming tools in Python.',
     long_description=long_description,
     long_description_content_type='text/x-rst',
