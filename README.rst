@@ -2,33 +2,25 @@
 libfuncpy
 =========
 
-.. image:: https://github.com/joaomcteixeira/libfuncpy/workflows/Tests/badge.svg?branch=main
-    :target: https://github.com/joaomcteixeira/libfuncpy/actions?workflow=Tests
+.. image:: https://github.com/joaomcteixeira/libfuncpy/workflows/tests/badge.svg?branch=main
+    :target: https://github.com/joaomcteixeira/libfuncpy/actions?workflow=tests
     :alt: Test Status
 
-.. image:: https://github.com/joaomcteixeira/libfuncpy/workflows/Package%20Build/badge.svg?branch=main
-    :target: https://github.com/joaomcteixeira/libfuncpy/actions?workflow=Package%20Build
+.. image:: https://github.com/joaomcteixeira/libfuncpy/workflows/deploy/badge.svg?branch=main
+    :target: https://github.com/joaomcteixeira/libfuncpy/actions?workflow=deploy
     :alt: Package Build
 
-.. image:: https://codecov.io/gh/joaomcteixeira/libfuncpy/branch/main/graph/badge.svg
+.. image:: https://codecov.io/gh/joaomcteixeira/libfuncpy/branch/main/graph/badge.svg?token=AOJFM3HPJF
     :target: https://codecov.io/gh/joaomcteixeira/libfuncpy
     :alt: Codecov
 
-.. image:: https://img.shields.io/codacy/grade/ae042ac066554bfab398024b0beea6a5/main?label=Codacy
-    :target: https://app.codacy.com/manual/joaomcteixeira/libfuncpy/dashboard
-    :alt: Codacy
+.. image:: https://api.codeclimate.com/v1/badges/262a24f8c06d6f27ebd6/maintainability
+    :target: https://codeclimate.com/github/joaomcteixeira/libfuncpy/maintainability
+    :alt: Maintainability
 
-.. image:: https://api.codeclimate.com/v1/badges/d96cc9a1841a819cd4f5/maintainability
-   :target: https://codeclimate.com/github/joaomcteixeira/libfuncpy/maintainability
-   :alt: Maintainability
-
-.. image:: https://img.shields.io/codeclimate/tech-debt/joaomcteixeira/libfuncpy
-    :target: https://codeclimate.com/github/joaomcteixeira/libfuncpy
-    :alt: Code Climate technical debt
-
-.. image:: https://img.shields.io/readthedocs/libfuncpy/latest?label=Read%20the%20Docs
-    :target: https://libfuncpy.readthedocs.io/en/latest/index.html
-    :alt: Read the Docs
+.. image:: https://readthedocs.org/projects/libfuncpy/badge/?version=latest
+    :target: https://libfuncpy.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
 
 Summary
 =======
