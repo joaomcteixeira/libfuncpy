@@ -1,7 +1,9 @@
 libfuncpy API
 =============
 
-.. toctree::
-    :glob:
+.. testsetup::
 
-    libfuncpy*
+    from libfuncpy import *
+
+.. automodule:: libfuncpy
+    :members:

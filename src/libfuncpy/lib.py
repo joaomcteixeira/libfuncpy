@@ -12,9 +12,11 @@ from operator import (
     )  # noqa: F401
 
 
-def vartial(func, /, *args, **keywords):
+def vartial(func, *args, **keywords):
     def newfunc(value, *fargs, **fkeywords):
-        newkeywords = {**keywords, **fkeywords}
+        #newkeywords = {**keywords, **fkeywords}
+        newkeywords = keywords.copy()
+        newkeywords.update(fkeywords)
         return func(value, *args, *fargs, **newkeywords)
     newfunc.func = func
     newfunc.args = args
