@@ -59,6 +59,29 @@ def ternary_operator_x(x, iflogic, assertion, elselogic):
     return iflogic(x) if assertion(x) else elselogic(x)
 
 
+def make_iterable(value):
+    """
+    Transform into an iterable.
+
+    Transforms a given `value` into an iterable if it is not.
+    Else, return the value itself.
+
+    Example
+    =======
+    >>> make_iterable(1)
+    [1]
+
+    >>> make_iterable([1])
+    [1]
+    """
+    try:
+        iter(value)
+    except TypeError:
+        return [value]
+    else:
+        return value
+
+
 def reduce_helper(value, f, *a, **k):
     return f(value, *a, **k)
 
