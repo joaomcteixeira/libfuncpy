@@ -9,7 +9,7 @@ from operator import (
     is_, is_not,
     setitem, getitem, delitem,
     iadd,
-    )
+    )  # noqa: F401
 
 
 def vartial(func, /, *args, **keywords):
@@ -90,7 +90,7 @@ def whileloop(cond, func, do_stopiteration=none, do_exhaust=none):
 
 
 def consume(gen):
-    for i in gen:
+    for _ in gen:
         pass
 
 
@@ -104,11 +104,11 @@ def flatlist(list_):
     if isinstance(list_, str):
         yield list_
     else:
-       try:
-           for sublist in list_:
-               yield from flatlist(sublist)
-       except TypeError:  # sublist is not iterable
-           yield sublist
+        try:
+            for sublist in list_:
+                yield from flatlist(sublist)
+        except TypeError:  # sublist is not iterable
+            yield sublist
 
 
 def raise_(exception, *ignore, **everything):
@@ -116,7 +116,14 @@ def raise_(exception, *ignore, **everything):
 
 
 @contextmanager
-def context_engine(func, exceptions, doerror, doelse, dofinally, *args, **kwargs):
+def context_engine(
+        func,
+        exceptions,
+        doerror,
+        doelse,
+        dofinally,
+        *args,
+        **kwargs):
     try:
         result = func(*args, **kwargs)
 
@@ -131,10 +138,10 @@ def context_engine(func, exceptions, doerror, doelse, dofinally, *args, **kwargs
         dofinally(result)
 
 
-
 # If Then Else
 ITE = ternary_operator
 ITEX = ternary_operator_x
+
 # conditionals
 is_none = partial(is_, None)
 is_not_none = partial(is_not, None)
