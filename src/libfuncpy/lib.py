@@ -1,3 +1,4 @@
+"""Contain functions."""
 from contextlib import contextmanager
 from functools import partial, reduce
 from operator import (
@@ -35,7 +36,7 @@ def vartial(func, *args, **keywords):
     81
     """
     def newfunc(value, *fargs, **fkeywords):
-        #newkeywords = {**keywords, **fkeywords}
+        # newkeywords = {**keywords, **fkeywords}
         newkeywords = keywords.copy()
         newkeywords.update(fkeywords)
         return func(value, *args, *fargs, **newkeywords)
@@ -156,7 +157,7 @@ def make_iterable(value):
     Else, return the value itself.
 
     Example
-    =======
+    -------
     >>> make_iterable(1)
     [1]
 
@@ -205,7 +206,7 @@ def chainf(init, *funcs):
 
 def chainfs(*funcs):
     """
-    Stores functions be executed on a value.
+    Store functions be executed on a value.
 
     Example
     -------
@@ -328,6 +329,7 @@ def context_engine(
         dofinally,
         *args,
         **kwargs):
+    """Make a context engine."""
     try:
         result = func(*args, **kwargs)
 
