@@ -2,6 +2,9 @@
 Changelog
 =========
 
+v0.0.4 (2021-07-19)
+------------------------------------------------------------
+
 * Add docstrings
 * add `mapc`
 * add new names and list of deprecates
