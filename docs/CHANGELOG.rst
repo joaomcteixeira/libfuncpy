@@ -2,6 +2,11 @@
 Changelog
 =========
 
+* Add docstrings
+* add `mapc`
+* add new names and list of deprecates
+* disable `isort` checks
+
 v0.0.3 (2021-06-29)
 ------------------------------------------------------------
 
